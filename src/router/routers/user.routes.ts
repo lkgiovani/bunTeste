@@ -7,12 +7,12 @@ const userRouter = Router();
 
 userRouter.post("/create", userController.createUser);
 
-userRouter.get("/getAll");
+userRouter.get("/getAll", userController.getAllUser);
 
-userRouter.put("/getById");
+userRouter.put("/getById", userController.getByIdUser);
 
-userRouter.post("/edit");
+userRouter.post("/edit", userController.editUser);
 
-userRouter.delete("/delete");
+userRouter.delete("/delete", userController.deleteUser);
 
 export { userRouter };
