@@ -1,8 +1,8 @@
 # bun_teste
 
-Api teste usando bun.
+Api test using bun.
 
-CRUD basico de usuario
+Basic user CRUD
 
 Stack:
 - prisma
@@ -20,5 +20,17 @@ To run:
 ```bash
 bun run dev
 ```
+Basic .env configuration
+
+```env
+DATABASE_URL="mysql://root:root@localhost:3306/bunTeste"
+
+DEBUG = false
+
+PORT = 3333 
+
+
+```
+
 
 This project was created using `bun init` in bun v1.1.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
