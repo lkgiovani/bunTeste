@@ -1,6 +1,13 @@
 # bun_teste
 
-Api teste usando bun
+Api teste usando bun.
+
+CRUD basico de usuario
+
+Stack:
+- prisma
+- zod
+- express
 
 To install dependencies:
 
